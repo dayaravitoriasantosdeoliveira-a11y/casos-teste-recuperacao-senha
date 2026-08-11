@@ -6,6 +6,7 @@ Este repositório contém a documentação técnica que elaborei para validar o 
 pré-condição: Usuário cadastrado no sistema
 
 passos:
+
 1. clicar em "esqueci minha senha"
 2. digitar e-mail cadastrado e clicar em enviar
 3. abrir o e-mail e copiar o código de verificação e colar na pagina de recuperação de senha ou clicar no link de validação de Usuário pra confirmar sua identidade.
@@ -20,8 +21,8 @@ tentativa com o e-mail não cadastrado
 pré-condição: nenhuma
 
 passos:
-1.clicar em "esqueci minha senha"
 
+1.clicar em "esqueci minha senha"
 2. O Usuário digitar o e-mail que não está cadastrado e clicar em enviar 
 
 resultado esperado: O sistema deve enviar bloquear o envio e exibir a mensagem: "E-mail não encontrado" ou "Usuário inválido"
