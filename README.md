@@ -23,7 +23,6 @@ pré-condição: nenhuma
 passos:
 
 1.clicar em "esqueci minha senha"
-
 2. O Usuário digitar o e-mail que não está cadastrado e clicar em enviar 
 
 resultado esperado: O sistema deve enviar bloquear o envio e exibir a mensagem: "E-mail não encontrado" ou "Usuário inválido"
