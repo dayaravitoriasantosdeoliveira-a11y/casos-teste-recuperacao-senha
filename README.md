@@ -23,6 +23,7 @@ pré-condição: nenhuma
 passos:
 
 1.clicar em "esqueci minha senha"
+
 2. O Usuário digitar o e-mail que não está cadastrado e clicar em enviar 
 
 resultado esperado: O sistema deve enviar bloquear o envio e exibir a mensagem: "E-mail não encontrado" ou "Usuário inválido"
@@ -33,8 +34,11 @@ tentativa com senha fraca
 pré-condição: O usuário já deve ter clicado no link de redefinir senha
 
 passos:
+
 1.No campo "nova senha" digitar ex:'123'
+
 2.No campo confirme sua senha, digitar novamente '123'
+
 3.clicar em salvar
 
 resultado esperado: o sistema deve bloquear o envio e exibir a mensagem "a senha deve conter no mínimo 8 caracteres, incluindo letras e números"
